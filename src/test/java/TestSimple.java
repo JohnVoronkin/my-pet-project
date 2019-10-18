@@ -7,8 +7,9 @@ import static com.codeborne.selenide.Selenide.open;
 public class TestSimple {
 
   @Test
-  void initTest(){
+  void initTest() {
     Configuration.browser = WebDriverRunner.CHROME;
+    Configuration.holdBrowserOpen = true;
     open("https://www.google.com/");
   }
 

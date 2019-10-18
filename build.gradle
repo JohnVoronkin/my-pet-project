@@ -15,6 +15,6 @@ dependencies {
     // https://mvnrepository.com/artifact/org.testng/testng
     testCompile group: 'org.testng', name: 'testng', version: '7.0.0'
     // https://search.maven.org/search?q=g:com.codeborne
-    compile "com.codeborne:selenide:5.4.0"
+    compile "com.codeborne:selenide:5.4.1"
 
 }
